@@ -66,7 +66,7 @@ export const Menu = ({onChangeMode}: propsMenu) => {
   }
 
   return (
-    <div className="flex justify-center w-full min-w-fit h-20 relative sm:mb-16">
+    <div className="flex justify-center w-full min-w-fit h-20 relative">
       <ul className="flex text-md md:text-xl bg-white/10 relative">
         {
           Object.values(modes).map(({ id, label }) =>
