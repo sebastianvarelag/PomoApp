@@ -121,7 +121,7 @@ export const Timer = () => {
 
   return (
     <div className="flex w-full min-h-screen">
-      <div className="flex flex-col justify-evenly w-full items-center py-6">
+      <div className="flex flex-col justify-evenly w-full items-center py-6 gap-y-10">
         <Menu onChangeMode={nextMode}/>
         <div className="flex justify-center items-center min-w-[500px] min-h-[500px] bg-white/10 scale-50 sm:scale-75 md:scale-100 border-8 border-white/30 rounded-full relative">
             <div className="flex justify-center items-center text-9xl select-none">
